@@ -1,0 +1,27 @@
+.card{
+  width: 18rem;
+  margin: 20px;
+  padding: 10px;
+}
+
+.Navigation{
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+.display-3, .lead{
+  text-align: center
+}
+.display-3{
+  font-size: 22px !important;
+}
+
+.playlist-title{
+  text-align: center;
+  color: grey
+}
