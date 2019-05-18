@@ -4,12 +4,10 @@ import { Table } from 'reactstrap';
 
 
 class Playlist extends Component {
-   
- 
 
     render() {
         var total = [0]
-        {this.props.songs.map((song, i) => total.push(song.length))}
+        this.props.songs.map((song, i) => total.push(song.length))
         var duration = total.reduce(function(a, b){ return a + b; })
         return (
             <div>
@@ -27,10 +25,7 @@ class Playlist extends Component {
                         <td>{song.length}</td></tr>)}
                     </tbody>
                 </Table>
-
                 <p><b>Duration: {duration} </b></p>
-
-
             </div>
         );
     }
